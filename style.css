@@ -1,0 +1,39 @@
+* { box-sizing: border-box }
+
+body {
+  font-family: Inconsolata, monospace, sans-serif;
+  font-size: 14px;
+  padding: 5% 2%;
+  color: #222931;
+}
+
+@media(max-width: 600px) {
+  body { font-size: 16px }
+}
+
+main { max-width: 420px }
+
+a { color: #3498db }
+a:hover { text-decoration: none }
+
+h1 { font-size: 18px }
+h2 {
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+blockquote {
+  margin-left: 0px;
+  padding-left: 10px;
+  border-left: 2px solid #3498db;
+}
+
+blockquote cite { font-style: italic }
+blockquote a:before { content: "» " }
+
+ul {
+  list-style-type: square;
+  padding-left: 30px;
+}
+li { margin-bottom: 3px }
+
